@@ -3,10 +3,12 @@ button {
   color: var(--color-btn-text);
   outline: none;
   border: none;
-  padding: 10px 20px;
+  padding: 5px 10px;
+  border: 5px solid transparent;
 
   &:hover {
     background-color: var(--color-btn-background--hover);
     color: var(--color-btn-text--hover);
+    border: 5px dashed var(--color-btn-border--hover);
   }
 }
