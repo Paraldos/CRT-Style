@@ -15,6 +15,20 @@
   --color-btn-background--hover: var(--color-black);
   --color-btn-text: var(--color-black);
   --color-btn-text--hover: var(--color-green-100);
+  --color-btn-border--hover: var(--color-green-100);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--color-text);
+  font-family: "Micro 5", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
@@ -48,25 +62,13 @@ button {
   color: var(--color-btn-text);
   outline: none;
   border: none;
-  padding: 10px 20px;
+  padding: 5px 10px;
+  border: 5px solid transparent;
 }
 button:hover {
   background-color: var(--color-btn-background--hover);
   color: var(--color-btn-text--hover);
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color: var(--color-text);
-  font-family: "Micro 5", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  font-style: normal;
-  text-shadow: 0 0 3px #eeffcc;
+  border: 5px dashed var(--color-btn-border--hover);
 }
 
 /*# sourceMappingURL=styles.css.map */
