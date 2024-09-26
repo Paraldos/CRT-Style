@@ -1,0 +1,16 @@
+header {
+  // position
+  position: absolute;
+  left: 0;
+  top: 0;
+  // display
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // size
+  width: 100%;
+  height: var(--header-height);
+  padding: 0 2rem;
+  // border
+  border-bottom: 5px dashed var(--color-text);
+}
