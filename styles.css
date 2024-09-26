@@ -1,12 +1,19 @@
 * {
   --header-height: 80px;
-  --color-background: #040c06;
-  --color-text: #bedc7f;
-  --color-text-shadow: #eeffcc;
+  --color-green: #bedc7f;
+  --color-black: #040c06;
+  --color-white: #eeffcc;
+  --color-background: var(--color-black);
+  --color-text: var(--color-green);
+  --color-text-shadow: var(--color-white);
+  --color-btn-background: var(--color-green);
+  --color-btn-background--hover: var(--color-black);
+  --color-btn-text: var(--color-black);
+  --color-btn-text--hover: var(--color-green);
 }
 
 header {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   display: flex;
@@ -18,31 +25,43 @@ header {
   border-bottom: 5px dashed var(--color-text);
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: var(--color-background);
   background-image: linear-gradient(to right, var(--color-background), #0f380f);
   min-height: 100vh;
   padding: 2rem;
   padding-top: calc(var(--header-height) + 2rem);
+}
+
+section {
+  max-width: 1000px;
+  margin: auto;
+}
+
+button {
+  background-color: var(--color-btn-background);
+  color: var(--color-btn-text);
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+}
+button:hover {
+  background-color: var(--color-btn-background--hover);
+  color: var(--color-btn-text--hover);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   color: var(--color-text);
   font-family: "Micro 5", sans-serif;
   font-size: 30px;
   font-weight: 400;
   font-style: normal;
   text-shadow: 0 0 3px #eeffcc;
-}
-
-section {
-  max-width: 1000px;
-  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

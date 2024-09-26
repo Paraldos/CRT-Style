@@ -1,0 +1,17 @@
+* {
+  --header-height: 80px;
+
+  // colors
+  --color-green: #bedc7f;
+  --color-black: #040c06;
+  --color-white: #eeffcc;
+
+  --color-background: var(--color-black);
+  --color-text: var(--color-green);
+  --color-text-shadow: var(--color-white);
+
+  --color-btn-background: var(--color-green);
+  --color-btn-background--hover: var(--color-black);
+  --color-btn-text: var(--color-black);
+  --color-btn-text--hover: var(--color-green);
+}
