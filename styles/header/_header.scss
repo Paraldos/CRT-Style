@@ -12,5 +12,6 @@ header {
   height: var(--header-height);
   padding: 0 2rem;
   // border
+  background-color: var(--color-background);
   border-bottom: 5px dashed var(--color-text);
 }
