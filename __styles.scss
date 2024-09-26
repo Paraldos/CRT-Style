@@ -3,18 +3,3 @@
 @import "./styles/body";
 @import "./styles/section";
 @import "./styles/btn";
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  // font
-  color: var(--color-text);
-  font-family: "Micro 5", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  font-style: normal;
-  text-shadow: 0 0 3px #eeffcc;
-}
