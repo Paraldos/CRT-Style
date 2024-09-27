@@ -1,7 +1,9 @@
 * {
   --header-height: 80px;
   --color-black: #040c06;
-  --color-green-100: #22da26;
+  --color-green-300: rgba(34, 192, 37, 1);
+  --color-green-200: rgba(34, 192, 37, 0.8);
+  --color-green-100: rgba(34, 192, 37, 0.9);
   --color-white: #eeffcc;
   --color-background: var(--color-black);
   --color-text: var(--color-green-100);
@@ -11,6 +13,8 @@
   --color-btn-text: var(--color-black);
   --color-btn-text--hover: var(--color-green-100);
   --color-btn-border--hover: var(--color-green-100);
+  --color-link: var(--color-green-200);
+  --color-link--hover: var(--color-green-300);
 }
 
 @font-face {
@@ -74,6 +78,13 @@ button:hover {
   background-color: var(--color-btn-background--hover);
   color: var(--color-btn-text--hover);
   border: var(--border-size) dashed var(--color-btn-border--hover);
+}
+
+a {
+  color: var(--color-link);
+}
+a:hover {
+  color: var(--color-link--hover);
 }
 
 /*# sourceMappingURL=styles.css.map */
