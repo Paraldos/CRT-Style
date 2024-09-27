@@ -1,16 +1,16 @@
 * {
   --header-height: 80px;
   --color-black: #040c06;
-  --color-green: #22da26;
+  --color-green-100: #22da26;
   --color-white: #eeffcc;
   --color-background: var(--color-black);
-  --color-text: var(--color-green);
+  --color-text: var(--color-green-100);
   --color-text-shadow: var(--color-white);
-  --color-btn-background: var(--color-green);
+  --color-btn-background: var(--color-green-100);
   --color-btn-background--hover: var(--color-black);
   --color-btn-text: var(--color-black);
-  --color-btn-text--hover: var(--color-green);
-  --color-btn-border--hover: var(--color-green);
+  --color-btn-text--hover: var(--color-green-100);
+  --color-btn-border--hover: var(--color-green-100);
 }
 
 @font-face {
@@ -61,17 +61,19 @@ section {
 }
 
 button {
+  --border-size: 4px;
   background-color: var(--color-btn-background);
   color: var(--color-btn-text);
   outline: none;
-  border: none;
   padding: 5px 10px;
-  border: 5px solid transparent;
+  border: var(--border-size) solid transparent;
+  opacity: 0.9;
 }
 button:hover {
+  opacity: 1;
   background-color: var(--color-btn-background--hover);
   color: var(--color-btn-text--hover);
-  border: 5px dashed var(--color-btn-border--hover);
+  border: var(--border-size) dashed var(--color-btn-border--hover);
 }
 
 /*# sourceMappingURL=styles.css.map */

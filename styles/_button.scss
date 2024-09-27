@@ -1,14 +1,17 @@
 button {
+  --border-size: 4px;
+
   background-color: var(--color-btn-background);
   color: var(--color-btn-text);
   outline: none;
-  border: none;
   padding: 5px 10px;
-  border: 5px solid transparent;
+  border: var(--border-size) solid transparent;
+  opacity: 0.9;
 
   &:hover {
+    opacity: 1;
     background-color: var(--color-btn-background--hover);
     color: var(--color-btn-text--hover);
-    border: 5px dashed var(--color-btn-border--hover);
+    border: var(--border-size) dashed var(--color-btn-border--hover);
   }
 }

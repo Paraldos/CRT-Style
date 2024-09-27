@@ -8,16 +8,16 @@
   // --color-green-400: #305d42;
   // --color-green-300: #4d8061;
   // --color-green-200: #89a257;
-  --color-green: #22da26;
+  --color-green-100: #22da26;
   --color-white: #eeffcc;
 
   --color-background: var(--color-black);
-  --color-text: var(--color-green);
+  --color-text: var(--color-green-100);
   --color-text-shadow: var(--color-white);
 
-  --color-btn-background: var(--color-green);
+  --color-btn-background: var(--color-green-100);
   --color-btn-background--hover: var(--color-black);
   --color-btn-text: var(--color-black);
-  --color-btn-text--hover: var(--color-green);
-  --color-btn-border--hover: var(--color-green);
+  --color-btn-text--hover: var(--color-green-100);
+  --color-btn-border--hover: var(--color-green-100);
 }
