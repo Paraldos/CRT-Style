@@ -7,12 +7,13 @@
   --color-white: #eeffcc;
   --color-background: var(--color-black);
   --color-text: var(--color-green-100);
-  --color-text-shadow: var(--color-white);
+  --color-text-shadow: var(--color-green-200);
   --color-btn-background: var(--color-green-100);
   --color-btn-background--hover: var(--color-black);
   --color-btn-text: var(--color-black);
   --color-btn-text--hover: var(--color-green-100);
   --color-btn-border--hover: var(--color-green-100);
+  --color-btn-text-shadow: rgba(0, 0, 0, 0.5);
   --color-link: var(--color-green-200);
   --color-link--hover: var(--color-green-300);
 }
@@ -36,6 +37,7 @@
   font-size: 25px;
   font-weight: 400;
   font-style: normal;
+  text-shadow: 1px 1px 3px var(--color-text-shadow);
 }
 
 header {
@@ -72,6 +74,7 @@ button {
   padding: 5px 15px;
   border: var(--border-size) solid transparent;
   opacity: 0.9;
+  text-shadow: 1px 1px 2px var(--color-btn-text-shadow);
 }
 button:hover {
   opacity: 1;

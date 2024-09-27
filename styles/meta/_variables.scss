@@ -10,13 +10,14 @@
 
   --color-background: var(--color-black);
   --color-text: var(--color-green-100);
-  --color-text-shadow: var(--color-white);
+  --color-text-shadow: var(--color-green-200);
 
   --color-btn-background: var(--color-green-100);
   --color-btn-background--hover: var(--color-black);
   --color-btn-text: var(--color-black);
   --color-btn-text--hover: var(--color-green-100);
   --color-btn-border--hover: var(--color-green-100);
+  --color-btn-text-shadow: rgba(0, 0, 0, 0.5);
 
   --color-link: var(--color-green-200);
   --color-link--hover: var(--color-green-300);
