@@ -14,5 +14,6 @@ button {
     background-color: var(--color-btn-background--hover);
     color: var(--color-btn-text--hover);
     border: var(--border-size) dashed var(--color-btn-border--hover);
+    text-shadow: 1px 1px 2px var(--color-btn-border--hover);
   }
 }
